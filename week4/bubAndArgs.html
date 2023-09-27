@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<form onclick="alert('form')">FORM
+    <div onclick="alert('div')">DIV
+        <p onclick="alert('p')">P</p>
+    </div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<div id="outer">
+
+<div> id="bub1" class="my-div"</div>
+<div> id="bub2" class="my-div"</div>
+<div> id="bub3" class="my-div"</div>
+<div> id="bub4" class="my-div"</div>
+<div> id="bub5" class="my-div"</div>
+<div> id="bub6" class="my-div"</div>
+<div> id="bub7" class="my-div"</div>
+<div> id="bub8" class="my-div"</div>
+<div> id="bub9" class="my-div"</div>
+<div> id="bub10"class="my-div"</div>
+
+</div>
+
+<p id="output"></p>
+
+<script>
+    document.getElementById('outer').addEventListener('click', function(e) {
+        const target = e.target;
+        const outputElement = document.getElementById('output');
+        if (target.classList.contains('my-div')) {
+            console.log(`The value of id pointed to by the target property is: ${target.id}`);
+        }
+    });
+</script>
+
+</body>
+</html>

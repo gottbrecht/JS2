@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unique Color</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div id="dom1" style="width: 100px;margin: 1px;">&nbsp;</div>
+<div id="dom2" style="width: 100px;margin: 1px;">&nbsp;</div>
+<div id="dom3" style="width: 100px;margin: 1px;">&nbsp;</div>
+
+<button id="changeColorButton">Change Colors</button>
+
+<script>
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+    function changeColors() {
+        const boxes = document.querySelectorAll('.box');
+        boxes.forEach((box) => {
+            box.style.backgroundColor = getRandomColor();
+        });
+    }
+
+    const changeColorButton = document.getElementById('changeColorButton');
+    changeColorButton.addEventListener('click', changeColors);
+</script>
+</body>
+</html>
