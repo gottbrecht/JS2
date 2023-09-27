@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6058ce35-fe4b-4a2a-a44c-25fdeedc6fd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOMM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bubAndArgs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styleSheet.css" afterDir="false" />
-    </list>
+    <list default="true" id="6058ce35-fe4b-4a2a-a44c-25fdeedc6fd2" name="Changes" comment="week4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,14 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,10 +52,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simone\IdeaProjects\JS1\week4" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\simone\AppData\Roaming\Subversion</configuration>
@@ -77,8 +75,17 @@
       <workItem from="1694895227265" duration="360000" />
       <workItem from="1694929071090" duration="17479000" />
       <workItem from="1695651678207" duration="694000" />
-      <workItem from="1695652475834" duration="9844000" />
+      <workItem from="1695652475834" duration="17596000" />
     </task>
+    <task id="LOCAL-00001" summary="week4">
+      <option name="closed" value="true" />
+      <created>1695822454277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695822454277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week4" />
+    <option name="LAST_COMMIT_MESSAGE" value="week4" />
   </component>
 </project>
